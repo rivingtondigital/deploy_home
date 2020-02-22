@@ -1,0 +1,12 @@
+[submodule "modules/tf_pubic_network"]
+	path = modules/tf_pubic_network
+	url = git@github.com:rivingtondigital/tf_pubic_network.git
+[submodule "modules/tf_single_instance"]
+	path = modules/tf_single_instance
+	url = git@github.com:rivingtondigital/tf_single_instance.git
+[submodule "modules/tf_find_ubuntu_ami"]
+	path = modules/tf_find_ubuntu_ami
+	url = git@github.com:rivingtondigital/tf_find_ubuntu_ami.git
+[submodule "modules/tf_buckets"]
+	path = modules/tf_buckets
+	url = git@github.com:rivingtondigital/tf_buckets.git
