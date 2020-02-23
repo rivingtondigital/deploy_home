@@ -1,0 +1,14 @@
+#! /bin/bash
+
+sudo hostname ${hostname} 
+apt -y update 
+pip install pymongo
+pip install awscli
+apt -y install nginx 
+
+git clone git@github.com:rivingtondigital/home_opt.git /opt/
+
+unlink /etc/nginx/sites-enabled/default
+ln -s /opt/home_opt/etc/nginx/reverse-proxy.conf /etc/nginx/sites-enabled/
+
+

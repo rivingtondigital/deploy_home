@@ -1,6 +1,3 @@
-[submodule "modules/tf_pubic_network"]
-	path = modules/tf_pubic_network
-	url = git@github.com:rivingtondigital/tf_pubic_network.git
 [submodule "modules/tf_single_instance"]
 	path = modules/tf_single_instance
 	url = git@github.com:rivingtondigital/tf_single_instance.git
