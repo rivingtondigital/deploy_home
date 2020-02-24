@@ -6,7 +6,7 @@ variable "project_name"{
 }
 
 variable "project_domain"{
-  default = "home.rdig.co"
+  default = "rdig.co"
 }
 
 variable "instance_type"{
@@ -16,6 +16,10 @@ variable "instance_type"{
 
 variable "ami"{
   default = "ami-07ea394feb05a3fc3"
+}
+
+variable "eip_id"{
+  default = "eipalloc-097a3e8e08c227555"
 }
 
 variable "public_key" {
