@@ -54,6 +54,8 @@ resource "aws_iam_policy" "policy" {
   EOF
 }
 
+# This is a really terrible idea :/ can != should
+
 resource "aws_iam_role_policy_attachment" "route53_attach" {
   role        = aws_iam_role.default_role.name
   policy_arn  = aws_iam_policy.policy.arn 
